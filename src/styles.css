@@ -1,0 +1,25 @@
+:root {
+	--percentComplete: 0;
+	--yellow: #ffe742;
+	--pink: #ff87d4;
+	--blue: #87fffb;
+	--gradient: linear-gradient(
+		2deg,
+		var(--pink),
+		var(--yellow) 50%,
+		var(--blue)
+	);
+}
+
+.video-container {
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.spinning-boop {
+	filter: drop-shadow(0 0 20px white);
+	width: 30%;
+}
